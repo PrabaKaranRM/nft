@@ -1,0 +1,108 @@
+body{
+ 
+ 
+}
+.social-icons1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    
+
+}
+
+.bg-nft{
+    color: white;
+    font-size: 355px;
+    font-weight: bold;
+    opacity: 5%;
+    z-index: -1;
+    position: fixed;
+}
+
+
+
+.fa-head{
+    color: #fff;
+    font-size: 66px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.faqs{
+    text-align: center;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.qn{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FAC81D;
+}
+
+.ans{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.marquee{
+    background-color: #843C7B;
+}
+.scroll-txt{
+    color: #000;
+    font-size: 62px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    
+    
+}
+
+
+.sc-tx{
+    margin-left: 50px;
+}
+
+.cr-txt{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+
+.ths{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.copy-right{
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.social-icons-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    
+
+}
+
+.so1-1{
+    background-color: #FAC81D;
+    padding: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+

@@ -1,0 +1,53 @@
+.body{
+    margin: 0 auto;
+}
+
+.bg-nft{
+    color: white;
+    font-size: 355px;
+    font-weight: bold;
+    opacity: 5%;
+    z-index: -1;
+    position: fixed;
+}
+   
+.free-mint{
+    position: relative;
+    
+    color: #F4E182;
+    font-size: 60px;
+    font-weight: 700; 
+}
+
+.box{
+ 
+    padding: 24px;
+    border-radius: 24px;
+opacity: 70%;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 11px 2px;
+    background-color: #272727;
+
+}
+
+.id{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.mint{
+    font-size: 26px;
+    font-weight: bold;
+    color: #fcc308;
+    opacity: 100%;
+}
+
+
+.con{
+    background-color: #F4E182;
+    border-radius: 30px;
+    
+}
+
+.con:hover{
+ background-color: #F4E182;
+}

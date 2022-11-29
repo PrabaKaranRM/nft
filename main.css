@@ -1,0 +1,268 @@
+body{
+    background-color: #000;
+    margin: 0;
+  
+   
+  }
+  
+  
+  
+  .f2{
+      opacity: 50%;
+      pointer-events: none;
+  }
+  
+  
+  
+  .i{
+      pointer-events: none;
+  }
+  .container-fluid{
+      padding-left: 0;
+      padding-right: 0;
+  
+  }
+  .navbar{
+      padding-right: 0;
+      background: linear-gradient(180deg, #CB21E2 -101.98%, #000000 100%);
+  }
+  canvas {
+      width: 100%;
+      mix-blend-mode: difference;
+      height: 120vh;
+      position: absolute;
+      z-index: 0;
+      margin: 0;
+    }
+  
+   
+  .nav-item{
+      font-size: 18px;
+      font-weight: bold;
+      padding-right: 30px;
+      position: relative;
+      margin-top: 20px;
+  }
+
+ 
+  .nav-link::after{
+      content: "";
+      margin-left: 20px;
+      width: 0.7rem;
+      height: 1.6rem;
+      position: absolute;
+      top: 30%;
+      transform: translateY(-50%);
+      background: linear-gradient(-71deg,transparent 43.5%,#8f48ff 0,#8f48ff 56.5%,transparent 0);
+      cursor: default;
+  }
+
+  .nav-link:hover{
+    font-size: 19px;
+  }
+  
+  .nav-file::after{
+      display: none;
+  }
+  
+  /* .slash{
+      content: "";
+      width: 0.8rem;
+      height: 1.6rem;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: linear-gradient(-71deg,transparent 43.5%,#8f48ff 0,#8f48ff 56.5%,transparent 0);
+      cursor: default;
+      
+  } */
+  
+  @media only screen and (max-width: 1000px) {
+      .nav-link::after{
+          display: none;
+      }
+      canvas{
+          display: none;
+      }
+    }
+  
+  /* .navbar{
+      
+      background: linear-gradient(180deg, #CB21E2 -101.98%, #000000 100%);
+     
+      
+  }
+  
+  .nav{
+   font-size: 16px;   
+   height: 80px;
+      
+  }
+  
+  .nav-item{
+      
+      font-weight: 500;
+      font-size: 36px;
+      align-items: center;
+      color: white;
+     
+  
+     
+  }
+  
+  .navbar-brand{
+     margin-left: 50px;
+      
+  }
+  
+  .navbar-right {
+      float: right!important;
+      margin-right: 15px;
+  }
+  
+  
+  
+  .nav-icon{
+      height: 30px;
+      width: 30px;
+      
+  } */
+  
+  /* .logo{
+     position: relative;
+      width: 170px;
+      margin-left: 50px;
+     
+  
+  } */
+  
+  .main-txt{
+      font-size: 86px;
+      font-weight: bold;
+      
+      
+  }
+  
+  
+  .lamp{
+      width: 18%;
+  
+  }
+  
+  
+  .genie{
+    
+     margin-left: 50px;
+      /* left: 148px;  */
+      animation: fadeInAnimation ease 3s;
+      position: relative;
+     
+  }
+  
+  @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+  }
+  
+  .ball{
+   
+  
+      
+      
+  
+  }
+  
+  .social-icons{
+      display: flex;
+      flex-direction: row;
+     position: absolute;
+   z-index: 1;
+   left: 25%;
+   cursor: pointer;
+   
+      
+  
+  }
+  
+  .globe{
+  pointer-events: none;
+ 
+  
+  
+  }
+  
+  .si{
+      height: 30px;
+      width: 30px;
+      
+  }
+  
+  .so1{
+      background-color: #F1E0AA;
+      padding: 2px;
+      height: 35px;
+      
+      width: 35px;
+      border-radius: 100px;
+      margin-left: 10px;
+      cursor: pointer;
+  }
+  
+  .h-txt{
+    margin-top: 20%;
+     pointer-events: none;
+  }
+  
+  @media only screen and (max-width: 763px) {
+      .h-txt {
+      
+       
+      }
+
+      .social-icons{
+        display: none;
+      }
+    }
+  .look{
+      margin-left: 835px;
+      margin-top: -430px;
+  }
+  
+  .box{
+      display: flex;
+      
+      
+  }
+  
+  
+  
+  .box .eye{
+      position: relative;
+      width: 20px;
+      height: 20px;
+      display: block;
+     
+      margin: 0 5px;
+  
+      border-radius: 50%;
+  
+  }
+  
+  
+  .box .eye::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: none;
+      border: 4px solid #fff;
+      box-sizing: border-box;
+  }

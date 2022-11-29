@@ -1,0 +1,190 @@
+body{
+
+    
+   background-color: #000;
+    
+}
+
+.social-icons1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    
+
+}
+
+.samp-1{
+    padding-top: 20%;
+}
+.samp-2{
+    padding-top: 20%;
+}
+
+
+ @keyframes pulse {
+        from {
+          transform: scale(0.98);
+          
+        }
+      
+        to {
+          transform: scale(1.04);
+      
+        }
+      }
+      
+
+
+
+.bg-nft{
+    color: white;
+    font-size: 355px;
+    font-weight: bold;
+    opacity: 5%;
+    z-index: -1;
+    position: fixed;
+}
+
+.layer {
+    background-color: #843C7B ;
+     position:absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    opacity: 95%;
+    
+   
+}
+
+.layer-1 {
+    background-color: #000 ;
+     position:absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    opacity: 95%;
+    margin-top: 600px;
+    
+   
+}
+
+.layer-2{
+    background-color: #843C7B ;
+    position:absolute;
+   top: 130px;
+   left: 0;
+   width: 100%;
+   min-height: 583px;
+   opacity: 95%;
+   margin-top: 1200px;
+}
+
+.layer-3{
+    background-color: #843C7B ;
+    position:absolute;
+   top: 130px;
+   left: 0;
+   width: 100%;
+   min-height: 203px;
+   opacity: 95%;
+   margin-top: 1870px;
+}
+
+
+
+
+.bg-op{
+    font-size: 266px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.stage-1-txt{
+    color: #FAC81D;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.stage-1-p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.stage-2-p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.samp-1{
+    position: relative;
+    top: 10%;
+    
+ 
+}
+
+.samp-2{
+    position: relative;
+    top: 10%;
+}
+.marquee{
+    background-color: #FAC81D;
+}
+.scroll-txt{
+    color: #000;
+    font-size: 62px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    
+    
+}
+
+
+.sc-tx{
+    margin-left: 50px;
+}
+
+.cr-txt{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.ths{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.copy-right{
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.social-icons-1{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+.so1-1{
+    background-color: #FAC81D;
+    padding: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,238 @@
+body{
+   
+    
+    /* bottom, image */
+   
+ 
+}
+
+.os-gif{
+
+  position: relative;
+  mix-blend-mode: difference;
+  left: 10%;
+margin-top: -20%;
+ 
+}
+
+.os-bg{
+ 
+        color: white;
+        font-size: 355px;
+        font-weight: bold;
+        opacity: 5%;
+        z-index: -1;
+    
+        position: fixed;
+ 
+}
+
+.layer{
+    background-color: #843C7B ;
+    position:absolute;
+   top: 130px;
+   left: 0;
+   width: 100%;
+   height: 135vh;
+   opacity: 95%;
+}
+
+
+    .social-icons1{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10%;
+        padding-top: 5%;
+        
+    
+    }
+    
+    .si{
+        height: 30px;
+        width: 30px;
+        
+    }
+    
+    .so1{
+        background-color: yellow;
+        padding: 2px;
+        height: 35px;
+        width: 35px;
+        border-radius: 100px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+.st-head{
+    color: #FAC81D;
+    font-size: 66px;
+    font-weight: 700;
+    text-decoration: underline;
+  
+  
+
+}
+
+
+
+
+.os-p{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+   padding-left: 10%;
+   padding-right: 10%;
+    
+    
+   
+}
+
+.os-t{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 13%;
+    padding-right: 40px;
+ 
+
+}
+
+.share{
+    height: 60px;
+    width: 60px;
+   background-color: #000;
+    cursor: pointer;
+    margin-left: -4px;
+    margin-top: -2px;
+    
+    
+
+}
+
+.show{
+    border: 4px solid #FAC81D;
+    height: 63px;
+    width: 60px;
+    border-radius: 45px;
+
+    overflow: hidden;
+    transition: width 1s;
+   
+
+}
+
+.show:hover{
+    width: 430px;
+    
+
+}
+
+.link{
+    font-size: 21px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -48px;
+    background: none;
+    border: none;
+}
+
+.copy-btn{
+    height: 35px;
+    width: 35px;
+    margin-left: 360px;
+    margin-top: -90px;
+    cursor: pointer;
+}
+
+.marquee{
+   
+    background-color:#843C7B;
+
+}
+.scroll-txt{
+    color: #000;
+    font-size: 62px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    
+    
+}
+
+
+.sc-tx{
+    margin-left: 50px;
+}
+
+.cr-txt{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.ths{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.copy-right{
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 10%;
+   
+    
+}
+
+
+.so{
+   padding: 15px;
+}
+
+.sign{
+    font-size: 40px;
+    margin-left: 140px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+.st-head{
+    font-size: 30px;
+}
+
+.show{
+    display: none;
+}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
